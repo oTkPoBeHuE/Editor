@@ -1,0 +1,36 @@
+.workarea {
+    display: flex;
+    border: 3px solid black;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(244 255 151);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.workarea__dragged {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    border: 1px dashed black;
+}
+
+.workarea__not-dragged {
+    display: flex;
+    justify-content: flex-start;
+    width: 400px;
+    height: 180px;
+    margin: 10px;
+    border: 1px solid black;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+    overflow-wrap: normal;
+}
+
